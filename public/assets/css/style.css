@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #264653;
+}
+h5, h6, label {
+  color: #080367;
+}
+
+.btn {
+  outline: 1px solid;
+  outline-color: #ff9f1c;
+  color: #ff9f1c;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #ff9f1c;
+}
+
+a, h4 {
+  color: #2a9daf;
+}
+
+
+a:hover {
+  color:#258b9b;
+}
+
+.navbar-brand {
+  color: #bf4342;
+  font-family: 'Yellowtail', cursive; 
+  font-size: 28px;
+  
+}
+
+.jumbotron {
+  color: #080367;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #bf4342;
+  font-family: 'Yellowtail', cursive; 
+  font-size: 72px;
+}
+
+#main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+}
+
+/* **** home page */
+.hide {
+  display: none;
+}
+
+/* **** login page, share page, search page */
+.page-form {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/*share page*/
+
+#addIngredient {
+  outline: 1px solid;
+  outline-color: #bf4342;
+  color: #bf4342;
+
+}
+#addIngredient:hover {
+  color: #ffffff;
+  background-color: #bf4342;
+}
+
+ img {
+  width: 200px;
+  height: auto;
+} 

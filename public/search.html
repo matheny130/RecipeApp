@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <title> Chupper Time!</title>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/search.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <a class="navbar-brand" href="/">Chupper Time</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/share">Share
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/search">Advanced Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn rounded yellow-outline my-2 my-sm-0" type="submit" id="#press">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container" id="main-content">
+
+    <form class="page-form bg-light">
+      <h1>Search Recipes</h1>
+      <div class="form-group">
+        <label for="chef-name-input">Chef's Name</label>
+        <input class="form-control" id="chef-name-input" type="text">
+      </div>
+      <div class="form-group">
+        <label for="recipe-input">Recipe Name</label>
+        <input class="form-control" id="recipe-name-input" type="text">
+      </div>
+      <div class="form-group">
+        <label for="method-input">Cooking Method</label>
+        <input class="form-control" id="method-input" type="text">
+      </div>
+      <div class="form-group">
+        <label for="time-input">Prep Time (minutes)</label>
+        <input class="form-control" id="time-input" type="number">
+      </div>
+
+      <div class="form-group">
+        <label for="ingredient-input">Ingredients</label>
+        <input class="form-control" id="ingredient-input" type="text">
+      </div>
+      <btn class="btn" id="advSearchBtn">Search</btn>
+      <span id="noResult"></span>
+    </form>
+
+
+  </div>
+</body>
+
+</html>
